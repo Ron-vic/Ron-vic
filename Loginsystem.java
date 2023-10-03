@@ -4,8 +4,8 @@ public class LoginSystem
 {
     public  static void main(String [] args)
     {
-       String correctUsername = "Victor";
-       String correctPassword = "Kiprotich123";
+       String Username = "Victor";
+       String Password = "Kiprotich123";
        int attempts = 3; 
        Scanner Log = new Scanner(System.in);
        while (attempts > 0)
@@ -24,7 +24,7 @@ public class LoginSystem
                 System.out.println();
                 
                 
-                 if (username.equals(correctUsername) && password.equals(correctPassword))
+                 if (username.equals(Username) && password.equals(Password))
                  {
                 System.out.println("Login successful!");
                 break;
